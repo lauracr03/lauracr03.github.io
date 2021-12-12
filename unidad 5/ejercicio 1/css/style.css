@@ -1,0 +1,18 @@
+.myclass {
+    text-align: center;
+    font-size: 5vw;
+    padding: 10vw;
+    border: solid;
+    background: repeating-radial-gradient(grey 20%, white 40%);
+}
+img {
+    display: block;
+    filter: grayscale(1);
+    animation: myAnimation 2s ease 1s 3 alternate forwards;
+}
+@keyframes myAnimation {
+    50% {
+        transform: rotate(360deg);
+    }
+    
+}

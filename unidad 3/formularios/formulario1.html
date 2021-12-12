@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="x-UA-COMPATIBLE" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-escale=1.0">
+		<title>Formulario</title>
+	</head>
+	<body>
+		<h1>Ejemplo formulario</h1>
+		<form action="mailto:a21carula@iesgrancapitan.org" method="post" name="formulario1">
+		<p>
+		<label>Nombre:
+			<input type="text" name="nombre" placeholder="Nombre" maxlength="10"/>
+		</label>
+		</p>
+		<p>
+		<label>fecha de nacimiento:
+			<input type="date" name="nacimiento" placeholder="Nacimiento"/>
+		</label>
+		</p>
+		<p>
+		<label>Numero horas:
+			<input type="number" name="nhoras" placeholder="horas" title="horas diarias de juego"/>
+		</label>
+		</p>
+		<p>
+		<label>Email:
+			<input type="email" name="email" placeholder="email"/>
+		</label>
+		</p>
+		<p>
+			<label>VC: 
+				<input type="CHECKBOX" name="vC1" value="PS"/>PS
+				<input type="CHECKBOX" name="vC2" value="XB"/>XB
+				<input type="CHECKBOX" name="vC3" value="NT"/>NT
+				<input type="CHECKBOX" name="vC4" value="PC"/>PC
+			</label>
+		</p>
+		<p>
+			<label> Elige juego preferido: 
+				<input type="radio" name="vjp" value="LOL"/>LOL
+				<input type="radio" name="vjp" value="FORNITE"/>FORNITE
+				<input type="radio" name="vjp" value="ANIMAL CROSSING"/>ANIMAL CROSSING
+				<input type="radio" name="vjp" value="DIABLO"/>DIABLO
+			</label>
+		</p>
+		
+		<textarea name="descripcion" cols="30" rows="0">Description</textarea>
+		<p>
+		<select name="frupos">
+			<option value="1">1DAW</option>
+			<option value="1">2DAW</option>
+			<option value="1">1ASIR</option>
+			<option value="1">2ASIR</option>
+		</select>
+		<p>
+		<input type="submit" name="submit" value="Enviar"/>
+		</p>
+	</body>
+</html>
